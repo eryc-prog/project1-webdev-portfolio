@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev Portfolio | Eric Encarnacion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="logo" id="scrollToTop" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 style="text-align: right; margin-left: auto; width: 50%;"><span>Eric Encarnacion</span></h1>
+    <p style="text-align: right; margin-left: auto; width: 50%;">Aspiring Web Developer</p>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I'm a aspiring full stack web developer that aims to learn be well-known in different programming language. I already finished my degree in college, but after
+      having my first job I know that it wasn't for me, that's why I enroll here in Uplift Code Camp to help me upskill and fuel that fire inside me. I'm doing my best
+      to learn, let's work together to build something great!
+      </p><br>
+
+      <a href="https://www.facebook.com/share/19UcMwzerY/?mibextid=LQQJ4d" class="icon" target="_blank">
+        <img src="C:\Users\ACER\Desktop\Uplift Code Camp\Encarnacion\Project\Project-Web Dev Portfolio\Picture_Icon\facebook-app-round-icon.webp" alt="Icon" style="width: 40px; height: 40px;">
+      </a>
+      <a href="https://www.instagram.com/eryc.encarnacion_?igsh=bWVscWpvY2JwMjR2&utm_source=qr" class="icon" target="_blank">
+        <img src="4922972.png" alt="Icon" style="width: 40px; height: 40px;">
+      </a>
+      <a href="https://x.com/?lang=en" class="icon" target="_blank">
+        <img src="twitterx.png" alt="Icon" style="width: 40px; height: 40px;">
+      </a>
+      <a href="https://www.linkedin.com/in/eric-encarnacion-429499320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon" target="_blank">
+        <img src="1384014.png" alt="Icon" style="width: 45px; height: 45px;">
+      </a><br>
+      <button onclick="sendEmail()">Send Email</button><br>
+      <a href="https://drive.google.com/file/d/1mfoDmT8aNmHLIE4drSXF7DiRhVR2riwR/view" target="_blank" class="btn">View and Download my resume</a>
+    </div>
+
+  <!-- Skills & Interest -->
+    <div class="flex-container">
+      <div class="flex-item-left">
+        <h2>Skills</h2>
+        <div class="image-row">
+          <div class="image-with-description">
+            <img src="954560.png" alt="Photography Icon" style="width: 70px; height: 70px;">
+            <p>Photography</p>
+          </div>
+          <div class="image-with-description">
+            <img src="8029503.png" alt="Videography Icon" style="width: 70px; height: 70px;">
+            <p>Videography</p>
+          </div>
+          <div class="image-with-description">
+            <img src="10438743.png" alt="Content Creation Icon" style="width: 70px; height: 70px;">
+            <p>Content Creation</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-item-right">
+        <h2>Interest</h2>
+        <div class="image-row">
+          <div class="image-with-description">
+            <img src="html-icon-1451x2048-69sehqrp.png" alt="HTML Icon" style="width: 70px; height: 70px;">
+            <p>HTML</p>
+          </div>
+          <div class="image-with-description">
+            <img src="css-3-icon-726x1024-610441pl.png" alt="CSS Icon" style="width: 70px; height: 70px;">
+            <p>CSS</p>
+          </div>
+          <div class="image-with-description">
+            <img src="603172.png" alt="PHP Icon" style="width: 70px; height: 70px;">
+            <p>PHP</p>
+          </div>
+          <div class="image-with-description">
+            <img src="9730481.png" alt="Project management Icon" style="width: 70px; height: 70px;">
+            <p>Project Management</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainings & Job Experience Section -->
+  <section id="about">
+    <h2>Trainings / Job Experience</h2>
+    <div class="portfolio-grid-li">
+      <div class="project-ni">
+        <img src="briefcase-512.png" alt="Briefcase 1" style="width: 40%; height: auto;">
+        <div class="description">
+          <h3>Information Technology Associate</h3>
+          <p>Furukawa Automotive System Lima Philippines</p>
+          <p>2023 - 2024</p>
+        </div>
+      </div>
+      <div class="project-ni">
+        <img src="briefcase-512.png" alt="Briefcase 1" style="width: 40%; height: auto;">
+        <div class="description">
+          <h3>Junior Service Engineer</h3>
+          <p>Philippine Duplicators, Inc.</p>
+          <p>September 2024 - December 2024</p>
+        </div>
+      </div>
+      <div class="project-ni">
+        <img src="301-3017170.png" alt="Project 3" style="width: 40%; height: auto;">
+        <div class="description">
+          <h3>Bootcamp Training</h3>
+          <p>Uplift Code Camp</p>
+          <p>November 2024 - May 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <img src="images.jpeg" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Usefull and working website</p>
+        <a href="https://github.com/eryc-prog" target="_blank" class="btn">Github</a>
+        <a href="https://www.w3schools.com/" target="_blank" class="btn">Website</a>
+      </div>
+      <div class="project">
+        <img src="images.jpeg" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Usefull and working website</p>
+        <a href="https://github.com/eryc-prog" target="_blank" class="btn">Github</a>
+        <a href="https://www.w3schools.com/" target="_blank" class="btn">Website</a>
+      </div>
+      <div class="project">
+        <img src="images.jpeg" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Usefull and working website</p>
+        <a href="https://github.com/eryc-prog" target="_blank" class="btn">Github</a>
+        <a href="https://www.w3schools.com/" target="_blank" class="btn">Website</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Eric Encarnacion 2024 </p>
+  </footer>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
