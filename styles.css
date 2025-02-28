@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@700&display=swap");
 
 body {
   margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #2F4454;
+  background-color: #2f4454;
   color: white;
   padding: 1rem 2rem;
   position: sticky;
@@ -45,15 +45,16 @@ nav ul li a:hover {
 .hero {
   text-align: center;
   padding: 8rem 5rem;
-  background: #212A31;
+  background: #212a31;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Picture_Icon/eric.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Picture_Icon/eric.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   font-size: 40px;
-  font-family: 'montserrat';
+  font-family: "montserrat";
 }
 .hero h1 span {
   color: #ffcc00;
@@ -78,7 +79,7 @@ nav ul li a:hover {
 .content {
   flex: 1;
   padding: 2rem;
-  background: #EDE8F5;
+  background: #ede8f5;
   text-align: center;
 }
 
@@ -102,13 +103,13 @@ nav ul li a:hover {
 }
 
 .flex-item-left {
-  background-color: #90AEAD;
+  background-color: #90aead;
   padding: 10px;
   flex: 50%;
 }
 
 .flex-item-right {
-  background-color: #90AEAD;
+  background-color: #90aead;
   padding: 10px;
   flex: 50%;
 }
@@ -148,7 +149,7 @@ nav ul li a:hover {
 #about {
   padding: 1rem 1rem;
   text-align: center;
-  background: #EDE8F5;
+  background: #ede8f5;
 }
 #about h2 {
   margin-bottom: 1rem;
@@ -161,7 +162,7 @@ nav ul li a:hover {
   gap: 0rem;
 }
 .project-ni {
-  background: #2F4454;
+  background: #2f4454;
   padding: 1rem;
   text-align: center;
   color: white;
@@ -202,7 +203,8 @@ nav ul li a:hover {
   padding: 2rem 1rem;
   text-align: center;
 }
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -225,17 +227,17 @@ form button:hover {
 footer {
   text-align: center;
   padding: 0.7rem;
-  background: #2F4454;
+  background: #2f4454;
   color: white;
 }
 
 @media (max-width: 768px) {
   nav ul {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   nav ul li {
-      margin: 0.5rem 0;
+    margin: 0.5rem 0;
   }
 }
