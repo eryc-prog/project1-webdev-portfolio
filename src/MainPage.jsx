@@ -95,7 +95,12 @@ export default function WeddingPlannerLandingPage() {
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <button
-                    onClick={handleRegisterClick}
+                    onClick={() =>
+                      window.open(
+                        "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new",
+                        "_blank"
+                      )
+                    }
                     style={{ fontFamily: "'Cinzel', serif" }}
                     className="bg-amber-400 text-white px-8 py-3 rounded-full hover:bg-amber-500 transition-colors font-medium flex items-center"
                   >
@@ -361,7 +366,9 @@ export default function WeddingPlannerLandingPage() {
                     <h4 className="text-xl font-bold text-gray-800 ">
                       AI Powered Flaschcard
                     </h4>
-                    <p className="text-gray-600 mb-6">Try Wedding Planner</p>
+                    <p className="text-gray-600 mb-6">
+                      Try AI Powered Flaschcard
+                    </p>
                     <div className="flex justify-center space-x-4 mb-6">
                       <button
                         onClick={() =>
@@ -401,7 +408,9 @@ export default function WeddingPlannerLandingPage() {
                     <h4 className="text-xl font-bold text-gray-800 ">
                       Waterworks Management System
                     </h4>
-                    <p className="text-gray-600 mb-6">Try Wedding Planner</p>
+                    <p className="text-gray-600 mb-6">
+                      Try Waterworks Management System
+                    </p>
                     <div className="flex justify-center space-x-4 mb-6">
                       <button
                         onClick={() =>
@@ -480,9 +489,9 @@ export default function WeddingPlannerLandingPage() {
                       <img src={todolp} />
                     </div>
                     <h4 className="text-xl font-bold text-gray-800 ">
-                      AI Powered Flaschcard
+                      My Todo App
                     </h4>
-                    <p className="text-gray-600 mb-6">Try Wedding Planner</p>
+                    <p className="text-gray-600 mb-6">Try My Todo App</p>
                     <div className="flex justify-center space-x-4 mb-6">
                       <button
                         onClick={() =>
@@ -498,7 +507,7 @@ export default function WeddingPlannerLandingPage() {
                       <button
                         onClick={() =>
                           window.open(
-                            "https://www.mongodb.com/resources/languages/mern-stack-tutorial",
+                            "https://todo-app-client-d7mo.onrender.com",
                             "_blank"
                           )
                         }
@@ -516,9 +525,9 @@ export default function WeddingPlannerLandingPage() {
                       <img src={pokemon} />
                     </div>
                     <h4 className="text-xl font-bold text-gray-800 ">
-                      AI Powered Flaschcard
+                      Pokedex App
                     </h4>
-                    <p className="text-gray-600 mb-6">Try Wedding Planner</p>
+                    <p className="text-gray-600 mb-6">Try Pokedex App</p>
                     <div className="flex justify-center space-x-4 mb-6">
                       <button
                         onClick={() =>
@@ -534,7 +543,7 @@ export default function WeddingPlannerLandingPage() {
                       <button
                         onClick={() =>
                           window.open(
-                            "https://www.mongodb.com/resources/languages/mern-stack-tutorial",
+                            "https://client-pokedex.onrender.com",
                             "_blank"
                           )
                         }
