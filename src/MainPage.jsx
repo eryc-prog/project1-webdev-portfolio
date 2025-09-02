@@ -68,7 +68,7 @@ export default function WeddingPlannerLandingPage() {
     <div>
       <Navbar />
       {/* Page Content */}
-      <div className="min-h-screen bg-gradient-to-r from-emerald-700 to-emerald-400  font-sans pt-16">
+      <div className="max-h-screen w-full bg-gradient-to-r from-emerald-700 to-emerald-400  font-sans pt-16">
         <div>
           <section
             id="about"
@@ -123,7 +123,7 @@ export default function WeddingPlannerLandingPage() {
 
               <div
                 style={{
-                  backgroundImage: `url(${eric})`,
+                  // backgroundImage: `url(${eric})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   borderRadius: "50%",

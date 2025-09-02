@@ -1,16 +1,11 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { useContext, useState } from "react";
-// import { Context } from "../Context";
+import { NavLink, useLocation } from "react-router-dom";
+import { useState } from "react";
 import { Menu, X, CodeXml } from "lucide-react";
 import React from "react";
 
 const NavbarLandingPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  //   const { user } = useContext(Context);
-
-  const location = useLocation();
-  // const navigate = useNavigate();
-  // const isLandingPage = location.pathname === "/";
+  // const location = useLocation();
 
   const scrollToSection = (event, sectionId) => {
     event.preventDefault();
@@ -24,8 +19,6 @@ const NavbarLandingPage = () => {
     if (isMenuOpen) setIsMenuOpen(false);
   };
 
-  // const handleLoginClick = () => navigate("/login");
-
   return (
     <div className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
       <nav className="items-center justify-between p-4 mx-auto">
@@ -33,18 +26,17 @@ const NavbarLandingPage = () => {
           <div className="flex justify-between items-center gap-4">
             {/* Logo and standard navigation */}
             <div className="flex items-center">
-              <div className="flex items-center gap-2">
-                <CodeXml className="text-blue-950" size={25} />
+              <div>
+                {/* <div className="flex items-center gap-2"> */}
                 <NavLink
                   to={"/"}
-                  //   className="text-xl font-bold flex items-left gap-1"
-                  //   aria-label="Go to Dashboard Home"
+                  className="text-xl font-bold flex items-left gap-1"
+                  aria-label="Go to Dashboard Home"
                 >
-                  {/* <img src={ring} alt="" className="w-11 h-7 mt-2" /> */}
-
+                  <CodeXml className="text-blue-950" size={25} />
                   <span
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-4xl font-light flex flex-col"
+                    className="text-4xl font-light"
                   >
                     Web Developer
                   </span>
